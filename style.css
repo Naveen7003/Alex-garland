@@ -1,0 +1,358 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html,body{
+width: 100%;
+height: 100%;
+}
+#nav{
+    height: 9vh;
+    width: 100%;
+    background-color:#3a92b4;
+    display: flex;
+    position:absolute;
+    z-index: 99;
+    justify-content: space-between;
+}
+#pa{
+    height: 100%;
+    width: 30%;
+    /* position:relative; */
+}
+#pa img{
+    height: 7vh; 
+    margin-left: 12vh;
+    margin-top: 1vh; 
+}
+#pb{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    color:white;
+    gap:4vw;
+    align-items: center;
+    padding-left: 4vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#pb h1{
+    font-size: 1.1vw;
+    font-weight: 400;
+}
+#pb h1:hover{
+    padding:5px 10px;
+    border-radius: 8px;
+    box-shadow: 2px 1px 7px 0px #000;
+}
+#pb button{
+    font-size: 1.3vw;
+    font-weight: 300;
+    color:white;
+    border-radius: 10px;
+    padding: 10px 25px;
+    border:none;
+    box-shadow: 2px 1px 9px 0px #000;
+    /* from CSS generator */
+    background-color: #0075a3;
+}
+#main{
+    width: 100%;
+    padding-top: 9vh;
+    background-color: #000;
+}
+#page1box{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#page1{ 
+    height: 100%;
+    width: 100%;
+    background-image: url(https://assets.website-files.com/640a272fd123fcd5962efb06/640b34d06bc211c5a562ecf1_home-hero.jpg);
+    background-size: cover; 
+    color:white;
+    padding-top: 18vw;
+    letter-spacing: 0.7vw;
+    /* padding-left: 12vw; */
+    text-align: center;
+    line-height: 7vw;
+}
+#page1 h1{
+    font-size: 8.5vw;
+}
+#page1 h2{
+    font-size: 5vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    letter-spacing: 4vw;
+}
+#page2box{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    position:sticky;
+    background-image: url(https://assets.website-files.com/640a272fd123fcd5962efb06/641086a209fd5358b7fd9c88_home-hero-3.jpg);
+    background-size: cover;
+}
+#page3box{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#page3{
+    height: 100%;
+    width: 100%;
+    position:sticky;
+    background-image: url(https://assets.website-files.com/640a272fd123fcd5962efb06/64145135208e554e7af9f504_home-hero-3.jpg);
+    background-size: cover;
+}
+#page4box{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#page4{
+    height: 100%;
+    width: 100%;
+    position:sticky;
+    background-image: url(https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    background-size: cover;
+}
+#page5{
+    height: 100vh;
+    width: 100%;
+    position:sticky;
+    background-image: url(https://images.unsplash.com/photo-1540882082344-a56ecd70ba96?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80);
+    background-size: cover;
+}
+#page6{
+    height: 170vh;
+    width: 100%;
+    background-color: rgba(30, 30, 30, 0.712);
+    color:white;
+}
+#t1{
+    font-size: 5vw;
+    /* color:black; */
+    padding-top: 5vw;
+    padding-left: 3.4vw;
+}
+#pg7box{
+    height: 25vw;
+    margin-top: 7vw;
+    width: 100%;
+    /* background-color:aqua; */
+    display: flex;
+    align-items: center;
+    /* padding:0vw 6vw; */
+    justify-content: center;
+    gap:1vw;
+}
+#pg7a{
+    height: 14.58vw;
+    width: 14.58vw;
+    object-fit: cover;
+}
+#pg7b{
+    height: 14.58vw;
+    width: 14.58vw;
+    object-fit: cover;
+}
+#pg7c{
+    height: 14.58vw;
+    width: 14.58vw;
+    object-fit: cover;
+}
+#pg7d{
+    height: 14.58vw;
+    width: 14.58vw;
+    object-fit: cover;
+}
+#pg7e{
+    height: 14.58vw;
+    width: 14.58vw;
+    object-fit: cover;
+}
+#pg7f{
+    height: 14.58vw;
+    width: 14.58vw;
+    object-fit: cover;
+}
+#t2{
+    font-size: 5vw;
+    margin-left: 2vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    margin-top: -30vw;
+    display: block;
+}
+#t3{
+    display: block;
+    font-size: 1.6vw;
+    margin-left: 2vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    margin-top: 2vw;
+}
+#t4{
+    position:relative;
+    height: 26vw;
+    width: 43vw;
+    object-fit: cover;
+    margin-left: 55vw;
+    margin-top: 12vw;
+}
+#page7{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(30, 30, 30, 0.712);
+}
+#seven{
+    height: 80vh;
+    width: 80vw;
+    /* background-color: aqua; */
+    background-image: url(https://assets.website-files.com/640a272fd123fcd5962efb06/640b34d06bc211c5a562ecf1_home-hero.jpg);
+    margin-top: -3vw;
+    background-size: cover;
+    animation-name: anime;
+    animation-duration: 20s;
+    animation-timing-function:cubic-bezier(0.165, 0.84, 0.44, 1);
+    animation-iteration-count: infinite;
+}
+@keyframes anime {
+    0%{
+
+    }
+    11%{
+        background-image: url(https://assets.website-files.com/640a272fd123fcd5962efb06/641086a209fd5358b7fd9c88_home-hero-3.jpg);
+    }
+    22%{
+        background-image: url(https://assets.website-files.com/640a272fd123fcd5962efb06/64145135208e554e7af9f504_home-hero-3.jpg);
+    }
+    33%{
+        background-image: url(https://assets.website-files.com/640a272fd123fcd5962efb06/640b34d187f7f844a9eb9c84_slider-facade.jpg);
+    }
+    44%{
+        background-image: url(https://assets.website-files.com/640a272fd123fcd5962efb06/640b34d190971b21bfe7d476_slider-stairs.jpg);
+    }
+    55%{
+        background-image: url(https://assets.website-files.com/640a272fd123fcd5962efb06/640b34d13b1c6a2ef3237ba3_slider-library.jpg);
+    }
+    66%{
+        background-image: url(https://assets.website-files.com/640a272fd123fcd5962efb06/640b34d197b40f14b964e663_slider-kitchen.jpg);
+    }
+    77%{
+        background-image: url(https://assets.website-files.com/640a272fd123fcd5962efb06/640b34d0dd97ee31f790bc4f_slider-connection.jpg);
+    }
+    88%{
+        background-image: url(https://assets.website-files.com/640a272fd123fcd5962efb06/6426dfd81239f60df33dfc42_slider-glass.jpg);
+    }
+    100%{
+        background-image:url(https://assets.website-files.com/640a3797d1ac5f990d9d5f45/640a38ebf03c2f25dc77bff0_weyland-hero-p-800.jpg);
+    }
+    
+}
+#page8{
+    height: 110vh;
+    width: 100%;
+    background-color: rgba(30, 30, 30, 0.712);
+    padding-top: 5vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:white;
+}
+#eight{
+    height: 57vh;
+    width: 60%;
+    margin-left: 20vw;
+    background-image: url(https://assets.website-files.com/640a272fd123fcd5962efb06/640b34cf8441827bcbc53605_home-location.jpg);
+    background-size: cover;
+}
+#page8 h1{
+    font-size: 2vw;
+    margin-top: 2vw;
+    font-weight: 400;
+    text-align: center; 
+}
+#page8 h2{
+    font-size: 1.5vw;
+    font-weight: 300;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+#page8 button{
+    font-size: 1.3vw;
+    font-weight: 300;
+    color:white;
+    border-radius: 10px;
+    padding: 10px 25px;
+    border:none;
+    box-shadow: 2px 1px 9px 0px #000;
+    /* from CSS generator */
+    background-color: #0075a3;
+    margin-left: 45vw;
+    margin-top: 2vw;
+}
+#footer{
+    height: 38vh;
+    width: 100%;
+    background-color:#0075a3 ;
+    display: flex;
+    color:white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.x{
+    height: 100%;
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.x img{
+   scale:0.27;
+   margin-left: -4vw;
+}
+.y{
+    height: 100%;
+    width: 33.33%;
+}
+#top{
+    height: 3vw;
+    width: 100%;
+    margin-top: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#top h1{
+    font-size: 1.6vw;
+    font-weight: 400;
+}
+.y h2{
+    font-size: 1.3vw;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 1vw;
+}
+.z{
+    height: 100%;
+    width: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:3vw;
+    font-size: 3vw;
+    font-weight: 300;
+}
